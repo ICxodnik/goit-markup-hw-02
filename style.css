@@ -1,0 +1,51 @@
+:root {
+    --default-font: 'Roboto', sans-serif;
+
+    --cl-iris: rgba(77, 90, 229, 1);
+    --cl-ocean: rgba(64, 75, 191, 1);
+    --cl-navyblue: rgba(46, 47, 66, 1);
+    --cl-green: rgba(49, 208, 170, 1);
+    --cl-slate: rgba(67, 68, 85, 1);
+    --cl-lightslate: rgba(142, 143, 153, 1);
+    --cl-cornflower: rgba(231, 233, 252, 1);
+    --cl-cloud : rgba(244, 244, 253, 1);
+    --cl-navybluemodal: rgba(46, 47, 66, 0.4);
+    --cl-grey: rgba(46, 47, 66, 0.7);
+    --cl-white: rgba(255, 255, 255, 1);
+    --cl-daity: gba(252, 252, 252, 1);
+    
+}
+
+body {
+    font-family: var(--cl-default-font);
+    background-color: var(--cl-white);
+}
+
+/* reset styles start */
+
+address {
+    font-style: normal1;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+button {
+    font-family: inherit;
+    color: currentColor;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/* reset styles end */
+
