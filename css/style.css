@@ -2,7 +2,7 @@
     --default-font: 'Roboto', sans-serif;
     --accent-font: 'Raleway', sans-serif;
 
-    /* --cl-primary_brand: rgba(77, 90, 229, 1);
+    --cl-primary_brand: rgba(77, 90, 229, 1);
     --cl-pressed_state: rgba(64, 75, 191, 1);
     --cl-dark: rgba(46, 47, 66, 1);
     --cl-success: rgba(49, 208, 170, 1);
@@ -13,9 +13,9 @@
     --cl-modal_overlay: rgba(46, 47, 66, 0.4);
     --cl-hero_background: rgba(46, 47, 66, 0.7);
     --cl-white_background: rgba(255, 255, 255, 1);
-    --cl-modal_background: gba(252, 252, 252, 1); */
+    --cl-modal_background: gba(252, 252, 252, 1);
 
-    --cl-primary_brand: #4D5AE5;
+    /* --cl-primary_brand: #4D5AE5;
     --cl-pressed_state: #404BBF;
     --cl-dark: #2E2F42;
     --cl-success: #31D0AA;
@@ -26,7 +26,7 @@
     --cl-modal_overlay: rgba(46, 47, 66, 0.4);
     --cl-hero_background: rgba(46, 47, 66, 0.7);
     --cl-white_background: rgba(255, 255, 255, 1);
-    --cl-modal_background: rgba(252, 252, 252, 1);
+    --cl-modal_background: rgba(252, 252, 252, 1); */
 }
 
 body {
