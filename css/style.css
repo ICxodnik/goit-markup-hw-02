@@ -20,7 +20,8 @@
 
 body {
     background-color: var(--cl-white_background);
-    font-family: var(--cl-default-font);
+    /* font-family: var(--cl-default-font); */
+    font-family: 'Roboto', sans-serif;
     color: var(--cl-text);
     font-size: 16px;
 }
