@@ -2,8 +2,10 @@
     --default-font: 'Roboto', sans-serif;
     --accent-font: 'Raleway', sans-serif;
 
-    --cl-primary_brand: rgba(77, 90, 229, 1);
-    --cl-pressed_state: rgba(64, 75, 191, 1);
+    /* --cl-primary_brand: rgba(77, 90, 229, 1); */
+    --cl-primary_brand: #4D5AE5;
+    /* --cl-pressed_state: rgba(64, 75, 191, 1); */
+    --cl-pressed_state: #F4F4FD;
     --cl-dark: rgba(46, 47, 66, 1);
     --cl-success: rgba(49, 208, 170, 1);
     --cl-text: rgba(67, 68, 85, 1);
@@ -42,28 +44,32 @@ address {
     font-style: normal;
 }
 
-ul, ol {
+/* ul, ol {
     list-style: none;
-}
+} */
 
 .list {
     list-style: none;
 }
 
-a {
+/* a {
     text-decoration: none;
     color: currentColor;
-}
+} */
 
 .link {
     text-decoration: none;
     color: currentColor;
 }
 
-button {
+/* button {
     font-family: inherit;
     color: currentColor;
     cursor: pointer;
+} */
+
+.button {
+    font-family:'Roboto', sans-serif;
 }
 
 img {
@@ -219,7 +225,7 @@ footer {
 .filter-btn {
     background: var(--cl-light); 
 
-    color: var(--cl-primary_brand, #4D5AE5);
+    color: var(--cl-primary_brand);
     text-align: center;
 
     font-weight: 500;
