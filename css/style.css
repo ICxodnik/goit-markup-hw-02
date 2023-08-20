@@ -26,7 +26,7 @@
     --cl-modal_overlay: rgba(46, 47, 66, 0.4);
     --cl-hero_background: rgba(46, 47, 66, 0.7);
     --cl-white_background: rgba(255, 255, 255, 1);
-    --cl-modal_background: gba(252, 252, 252, 1);
+    --cl-modal_background: rgba(252, 252, 252, 1);
 }
 
 body {
@@ -285,7 +285,7 @@ footer {
 }
 
 .exemple-tx {
-    color: var(--cl-text, #434455);
+    color: var(--cl-text);
 
     line-height: 1.5;
     letter-spacing: 0.02em;
