@@ -20,7 +20,6 @@ body {
     background-color: var(--cl-white);
     font-family: var(--cl-default-font);
     color: var(--cl-slate);
-    font-weight: 400;
     font-size: 16px;
 }
 
@@ -33,7 +32,6 @@ h2, h3, h4, h5, h6 {
     text-align: center;
 
     font-size: 36px;
-    font-weight: 700;
     line-height: 111.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -126,7 +124,6 @@ h1 {
     text-align: center;
 
     font-size: 56px;
-    font-weight: 700;
     line-height: 107.143%;
     letter-spacing: 0.02em;
 }
