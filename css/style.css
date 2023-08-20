@@ -2,29 +2,29 @@
     --default-font: 'Roboto', sans-serif;
     --accent-font: 'Raleway', sans-serif;
 
-    --cl-iris: rgba(77, 90, 229, 1);
-    --cl-ocean: rgba(64, 75, 191, 1);
-    --cl-navyblue: rgba(46, 47, 66, 1);
-    --cl-green: rgba(49, 208, 170, 1);
-    --cl-slate: rgba(67, 68, 85, 1);
-    --cl-lightslate: rgba(142, 143, 153, 1);
-    --cl-cornflower: rgba(231, 233, 252, 1);
-    --cl-cloud : rgba(244, 244, 253, 1);
-    --cl-navybluemodal: rgba(46, 47, 66, 0.4);
-    --cl-grey: rgba(46, 47, 66, 0.7);
-    --cl-white: rgba(255, 255, 255, 1);
-    --cl-daity: gba(252, 252, 252, 1);
+    --cl-primary_brand: rgba(77, 90, 229, 1);
+    --cl-pressed_state: rgba(64, 75, 191, 1);
+    --cl-dark: rgba(46, 47, 66, 1);
+    --cl-success: rgba(49, 208, 170, 1);
+    --cl-text: rgba(67, 68, 85, 1);
+    --cl-subtle_text: rgba(142, 143, 153, 1);
+    --cl-accent: rgba(231, 233, 252, 1);
+    --cl-light : rgba(244, 244, 253, 1);
+    --cl-modal_overlay: rgba(46, 47, 66, 0.4);
+    --cl-hero_background: rgba(46, 47, 66, 0.7);
+    --cl-white_background: rgba(255, 255, 255, 1);
+    --cl-modal_background: gba(252, 252, 252, 1);
 }
 
 body {
-    background-color: var(--cl-white);
+    background-color: var(--cl-white_background);
     font-family: var(--cl-default-font);
-    color: var(--cl-slate);
+    color: var(--cl-text);
     font-size: 16px;
 }
 
 h2, h3, h4, h5, h6 {
-    color: var(--cl-navyblue); 
+    color: var(--cl-dark); 
 }
 
 .section-title {
@@ -66,8 +66,8 @@ img {
 
 /* logo start */
 .logo {
-    color: var(--cl-navyblue);
-    font-family: --accent-font;
+    color: var(--cl-dark);
+    font-family: var(--accent-font);
     font-size: 18px;
     font-weight: 800;
     line-height: 1.16;
@@ -76,12 +76,12 @@ img {
 }
 
 .logo.white-logo {
-    color: var(--cl-cloud);
+    color: var(--cl-light);
 }
 
 .logo-accent {
-    color: var(--cl-iris);
-    font-family: --accent-font;
+    color: var(--cl-primary_brand);
+    font-family: var(--accent-font);
     font-size: 18px;
     font-weight: 800;
     line-height: 1.16;
@@ -99,7 +99,7 @@ img {
 
 .nav-title:hover,
 .nav-title:focus {
-    color: var(--cl-ocean);
+    color: var(--cl-pressed_state);
 }
 
 .address-detail {
@@ -109,18 +109,18 @@ img {
 
 .address-detail:hover,
 .address-detail:focus {
-    color: var(--cl-ocean);
+    color: var(--cl-pressed_state);
 }
 /* header end */
 
 
 /* hero start */
 .hero-section {
-    background: var(--cl-navyblue);
+    background: var(--cl-hero_background);
 }
 
 h1 {
-    color: var(--cl-white);
+    color: var(--cl-white_background);
     text-align: center;
 
     font-size: 56px;
@@ -129,8 +129,8 @@ h1 {
 }
 
 .hero-button {
-    background: var(--cl-iris);
-    color: var(--cl-white);
+    background: var(--cl-primary_brand);
+    color: var(--cl-white_background);
 
     font-size: 16px;
     font-weight: 500;
@@ -140,14 +140,14 @@ h1 {
 
 .hero-button:hover,
 .hero-button:focus {
-    background: var(--cl-ocean);
+    background: var(--cl-pressed_state);
 }
 /* hero end */
 
 
 /* about studio start */
 .aboutstudio-title {
-    color: var(--cl-navyblue);
+    color: var(--cl-dark);
 
     font-size: 20px;
     font-weight: 500;
@@ -156,7 +156,7 @@ h1 {
 }
 
 .aboutstudio-tx {
-    color: var(--cl-slate);
+    color: var(--cl-text);
 
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -166,11 +166,11 @@ h1 {
 
 /* team start */
 .team-section {
-    background: var(--cl-cloud);
+    background: var(--cl-light);
 }
 
 .team-el {
-    background: var(--cl-white);
+    background: var(--cl-white_background);
 }
 
 .team-title {
@@ -183,7 +183,7 @@ h1 {
 }
 
 .team-tx {
-    color: var(--cl-slate);
+    color: var(--cl-text);
     text-align: center;
 
     line-height: 1.5;
@@ -194,11 +194,11 @@ h1 {
 
 /* footer start */
 footer {
-    background: var(--cl-navyblue); 
+    background: var(--cl-dark); 
 }
 
 .footer-tx {
-    color: var(--cl-cloud);
+    color: var(--cl-light);
 
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -208,9 +208,9 @@ footer {
 
 /* portfolio page start */
 .filter-btn {
-    background: var(--cl-cloud); 
+    background: var(--cl-light); 
 
-    color: var(--cl-iris, #4D5AE5);
+    color: var(--cl-primary_brand, #4D5AE5);
     text-align: center;
 
     font-weight: 500;
@@ -221,16 +221,16 @@ footer {
 .filter-btn-active, 
 .filter-btn:hover,
 .filter-btn:focus {
-    background: var(--cl-ocean);
-    color: var(--cl-white);
+    background: var(--cl-pressed_state);
+    color: var(--cl-white_background);
 }
 
 .exemple-el {
-    background: var(--cl-white);
+    background: var(--cl-white_background);
 }
 
 .exemple-title {
-    color: var(--cl-navyblue);
+    color: var(--cl-dark);
 
     font-size: 20px;
     font-weight: 500;
@@ -239,7 +239,7 @@ footer {
 }
 
 .exemple-tx {
-    color: var(--cl-slate, #434455);
+    color: var(--cl-text, #434455);
 
     line-height: 1.5;
     letter-spacing: 0.02em;
