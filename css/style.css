@@ -37,7 +37,11 @@ body {
     font-size: 16px;
 }
 
-h2, h3, h4, h5, h6 {
+/* h2, h3, h4, h5, h6 {
+    color: var(--cl-dark); 
+} */
+
+.title {
     color: var(--cl-dark); 
 }
 
@@ -52,7 +56,11 @@ h2, h3, h4, h5, h6 {
 }
 
 /* reset styles start */
-address {
+/* address {
+    font-style: normal;
+} */
+
+.address {
     font-style: normal;
 }
 
@@ -74,11 +82,11 @@ address {
     color: currentColor;
 }
 
-button {
+/* button {
     font-family: inherit;
     color: currentColor;
     cursor: pointer;
-}
+} */
 
 .button {
     font-family:'Roboto', sans-serif;
@@ -86,11 +94,11 @@ button {
     cursor: pointer;
 }
 
-img {
+/* img {
     display: block;
     max-width: 100%;
     height: auto;
-}
+} */
 /* reset styles end */
 
 /* logo start */
@@ -124,6 +132,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em; 
+    color: var(--cl-dark);
 }
 
 .nav-title:hover,
@@ -148,7 +157,7 @@ img {
     background: var(--cl-dark);
 }
 
-h1 {
+.hero-title {
     color: var(--cl-white_background);
     text-align: center;
 
@@ -156,6 +165,15 @@ h1 {
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
+
+/* h1 {
+    color: var(--cl-white_background);
+    text-align: center;
+
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+} */
 
 .hero-button {
     background: var(--cl-primary_brand);
