@@ -2,10 +2,8 @@
     --default-font: 'Roboto', sans-serif;
     --accent-font: 'Raleway', sans-serif;
 
-    /* --cl-primary_brand: rgba(77, 90, 229, 1); */
-    --cl-primary_brand: #4D5AE5;
-    /* --cl-pressed_state: rgba(64, 75, 191, 1); */
-    --cl-pressed_state: #F4F4FD;
+    --cl-primary_brand: rgba(77, 90, 229, 1);
+    --cl-pressed_state: rgba(64, 75, 191, 1);
     --cl-dark: rgba(46, 47, 66, 1);
     --cl-success: rgba(49, 208, 170, 1);
     --cl-text: rgba(67, 68, 85, 1);
@@ -63,14 +61,16 @@ address {
     color: currentColor;
 }
 
-/* button {
+button {
     font-family: inherit;
     color: currentColor;
     cursor: pointer;
-} */
+}
 
 .button {
     font-family:'Roboto', sans-serif;
+    color: currentColor;
+    cursor: pointer;
 }
 
 img {
