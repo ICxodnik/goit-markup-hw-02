@@ -28,7 +28,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .section-title {
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue);
     text-align: center;
 
     font-size: 36px;
@@ -116,7 +116,7 @@ img {
 
 /* hero start */
 .hero-section {
-    background: var(--cl-hero_background);
+    background: var(--cl-dark);
 }
 
 h1 {
