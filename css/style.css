@@ -55,6 +55,11 @@ a {
     color: currentColor;
 }
 
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
 button {
     font-family: inherit;
     color: currentColor;
