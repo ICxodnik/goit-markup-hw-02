@@ -249,7 +249,7 @@ footer {
 
 /* portfolio page start */
 .filter-btn {
-    background: var(--cl-accent);
+    background-color: var(--cl-accent);
 
     color: var(--cl-primary_brand);
     text-align: center;
@@ -261,7 +261,7 @@ footer {
 
 .filter-btn:hover,
 .filter-btn:focus {
-    background: var(--cl-pressed_state);
+    background-color: var(--cl-pressed_state);
     color: var(--cl-white_background);
 }
 
