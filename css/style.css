@@ -93,11 +93,6 @@ body {
     cursor: pointer;
 }
 
-/* img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-} */
 /* reset styles end */
 
 /* logo start */
@@ -264,7 +259,6 @@ footer {
     letter-spacing: 0.04em;
 }
 
-.filter-btn-active, 
 .filter-btn:hover,
 .filter-btn:focus {
     background: var(--cl-pressed_state);
