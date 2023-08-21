@@ -8,8 +8,8 @@
     --cl-success: rgba(49, 208, 170, 1);
     --cl-text: rgba(67, 68, 85, 1);
     --cl-subtle_text: rgba(142, 143, 153, 1);
-    --cl-accent: rgba(231, 233, 252, 1);
-    /* --cl-accent: #F4F4FD; */
+    /* --cl-accent: rgba(231, 233, 252, 1); */
+    --cl-accent: #F4F4FD;
     --cl-light : rgba(244, 244, 253, 1);
     --cl-modal_overlay: rgba(46, 47, 66, 0.4);
     --cl-hero_background: rgba(46, 47, 66, 0.7);
